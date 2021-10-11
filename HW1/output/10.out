@@ -1,0 +1,31 @@
+Container has 11 elements
+1. "", Hash=0; Replacements: 0 (); Result: ""
+2. "", Hash=0; Replacements: 3 (a-1 b-2 c-3); Result: ""
+3. "abc  def", Hash=82.625; Replacements: 4 (a-1 b-2 c-3  - ); Result: "123  def"
+4. "1_2_3_4_5", Hash=70.5556; Replacements: 1 (_- ); Result: "1 2 3 4 5"
+5. "1 2 3 4 5", Hash=42.5556; Replacements: 1 ( -_); Result: "1_2_3_4_5"
+6. "ABBA", Hash=65.5; Shift: 3; Result: "
+
+"
+7. "0123456789", Hash=52.5; Shift: 7; Result: "˜™š›œ"
+8. "abracadabra", Hash=100.727; Shift: 100000; Result: "abracadabra"
+9. "", Hash=0; Replacements: 3 (a-1 b-2 c-3); Result: []
+10. "0dkv4", Hash=85; Replacements: 5 (k-50 z-60 v-51 d-49 #-200); Result: [48 49 50 51 52]
+11. "100500", Hash=49; Replacements: 3 (1-1 0-0 5-5); Result: [1 0 0 5 0 0]
+
+
+Mean: 49.860308
+Move Result: 
+"", Hash=0; Replacements: 0 (); Result: ""
+"", Hash=0; Replacements: 3 (a-1 b-2 c-3); Result: ""
+"1 2 3 4 5", Hash=42.5556; Replacements: 1 ( -_); Result: "1_2_3_4_5"
+"", Hash=0; Replacements: 3 (a-1 b-2 c-3); Result: []
+"100500", Hash=49; Replacements: 3 (1-1 0-0 5-5); Result: [1 0 0 5 0 0]
+"abc  def", Hash=82.625; Replacements: 4 (a-1 b-2 c-3  - ); Result: "123  def"
+"1_2_3_4_5", Hash=70.5556; Replacements: 1 (_- ); Result: "1 2 3 4 5"
+"ABBA", Hash=65.5; Shift: 3; Result: "
+
+"
+"0123456789", Hash=52.5; Shift: 7; Result: "˜™š›œ"
+"abracadabra", Hash=100.727; Shift: 100000; Result: "abracadabra"
+"0dkv4", Hash=85; Replacements: 5 (k-50 z-60 v-51 d-49 #-200); Result: [48 49 50 51 52]

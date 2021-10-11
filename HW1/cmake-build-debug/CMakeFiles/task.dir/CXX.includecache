@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/frees/AVS/src/container.cpp
+cstdlib
+-
+cstdio
+-
+container.h
+/home/frees/AVS/src/container.h
+error.h
+/home/frees/AVS/src/error.h
+
+/home/frees/AVS/src/container.h
+text.h
+/home/frees/AVS/src/text.h
+
+/home/frees/AVS/src/error.h
+cstdlib
+-
+
+/home/frees/AVS/src/main.cpp
+cstdio
+-
+container.h
+/home/frees/AVS/src/container.h
+error.h
+/home/frees/AVS/src/error.h
+
+/home/frees/AVS/src/text.h
+cstdio
+-
+
