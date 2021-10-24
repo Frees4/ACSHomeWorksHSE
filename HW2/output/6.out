@@ -1,0 +1,11 @@
+Container has 3 elements
+1. ""Hello world!"", Hash=84.6429; Replacements: 3 ("-' H-h l-L); Result: "'heLLo worLd!'"
+2. "", Hash=0; Shift: 2; Result: ""
+3. "123", Hash=50; Replacements: 3 (1-50 2-100 3-150); Result: [50 100 150]
+
+
+Mean: 44.880952
+Move Result: 
+"", Hash=0; Shift: 2; Result: ""
+""Hello world!"", Hash=84.6429; Replacements: 3 ("-' H-h l-L); Result: "'heLLo worLd!'"
+"123", Hash=50; Replacements: 3 (1-50 2-100 3-150); Result: [50 100 150]
