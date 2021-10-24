@@ -27,12 +27,12 @@ Container has 3 elements
 2. "", Hash=0; Shift: 2; Result: ""
 3. "123", Hash=50; Replacements: 3 (1-50 2-100 3-150); Result: [50 100 150]
 
------SORTED-----
 
-Container has 3 elements
-1. ""Hello world!"", Hash=84.6429; Replacements: 3 ("-' H-h l-L); Result: "'heLLo worLd!'"
-2. "123", Hash=50; Replacements: 3 (1-50 2-100 3-150); Result: [50 100 150]
-3. "", Hash=0; Shift: 2; Result: ""
+Mean: 44.880952
+Move Result: 
+"", Hash=0; Shift: 2; Result: ""
+""Hello world!"", Hash=84.6429; Replacements: 3 ("-' H-h l-L); Result: "'heLLo worLd!'"
+"123", Hash=50; Replacements: 3 (1-50 2-100 3-150); Result: [50 100 150]
 ```
 ## Характеристики программы
 ⠀|⠀
@@ -44,11 +44,10 @@ Container has 3 elements
 
 Номер теста|Время работы теста (сек.)
 -|-
-1|0.017
-2-12|0.014
-rand1 *(20 элементов)*|0.022
-rand2 *(1000 элементов)*|0.04
-rand3 *(10000 элементов)*|0.122
+1-12|≈0
+rand1 *(20 элементов)*|≈0
+rand2 *(1000 элементов)*|0.012055
+rand3 *(10000 элементов)*|0.016463
 ## Структура вычислительной системы
 ![Структура ВС](https://user-images.githubusercontent.com/70819094/136711230-796366e0-fe5f-4c93-a5fc-1290874d77f3.png)
 
